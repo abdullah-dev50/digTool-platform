@@ -1,21 +1,12 @@
+import NavIcon from "../assets/DigiTools.png";
+
 const Navbar = () => {
   return (
-
-
     <div>
-        
-      <div className="max-lg:collapse bg-base-200 lg:mb-48 shadow-sm w-full rounded-md">
-        <input id="navbar-1-toggle" className="peer hidden" type="checkbox" />
-        <label
-          htmlFor="navbar-1-toggle"
-          className="fixed inset-0 hidden max-lg:peer-checked:block"
-        ></label>
-        <div className="collapse-title navbar">
-          <div className="navbar-start">
-            <label
-              htmlFor="navbar-1-toggle"
-              className="btn btn-ghost lg:hidden"
-            >
+      <div className="navbar bg-base-100 shadow-sm py-4 px-20 w-100%">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -23,71 +14,74 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
+                {" "}
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
-                />
+                />{" "}
               </svg>
-            </label>
-            <button className="btn btn-ghost text-xl">daisyUI</button>
-          </div>
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            </div>
+            <ul
+              tabIndex="-1"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
               <li>
-                <button>Item 1</button>
+                <a>Products</a>
               </li>
               <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2 bg-base-100 w-40 z-1">
-                    <li>
-                      <button>Submenu 1</button>
-                    </li>
-                    <li>
-                      <button>Submenu 2</button>
-                    </li>
-                  </ul>
-                </details>
+                <a>Features</a>
               </li>
               <li>
-                <button>Item 3</button>
+                <a>Pricing</a>
+              </li>
+              <li>
+                <a>Testimonials</a>
+              </li>
+              <li>
+                <a>FAQ</a>
               </li>
             </ul>
           </div>
-          <div className="navbar-end">
-            <input
-              type="text"
-              placeholder="Search"
-              className="input input-bordered w-64 lg:w-auto"
-            />
-          </div>
+          <img src={NavIcon} alt="" />
         </div>
-
-        <div className="collapse-content lg:hidden z-1">
-          <ul className="menu">
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
-              <button>Item 1</button>
+              <a>Products</a>
             </li>
             <li>
-              <button>Parent</button>
-              <ul>
-                <li>
-                  <button>Submenu 1</button>
-                </li>
-                <li>
-                  <button>Submenu 2</button>
-                </li>
-              </ul>
+              <a>Features</a>
             </li>
             <li>
-              <button>Item 3</button>
+              <a>Pricing</a>
+            </li>
+            <li>
+              <a>Testimonials</a>
+            </li>
+            <li>
+              <a>FAQ</a>
             </li>
           </ul>
         </div>
+        <div className="navbar-end space-x-4">
+
+          
+          {/* wishlist btn */}
+          
+           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+        <div className="indicator">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
+          <span className="badge badge-sm indicator-item">8</span>
+        </div>
       </div>
 
+      <button>Login</button>
+      
+          <a className="btn inter font-bold bg-linear-to-r from-[#4F39F6] from-0% to-[#9514FA] to-100% text-white w-30.5 h-11 rounded-4xl">Get Started</a>
+        </div>
+      </div>
     </div>
   );
 };
