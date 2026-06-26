@@ -12,3 +12,12 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+.btn-gradient {
+  padding: 16px 16px; 
+  background: linear-gradient(to right, #4F39F6 0%, #9514FA 100%);
+  border-radius: 9999px;
+  color: white;
+  font-weight: bold;
+}

@@ -1,5 +1,8 @@
 import Banner from "../components/Banner";
+import Credibility from "../components/Credibility";
 import Navbar from "../components/Navbar";
+import Alltools from "../components/Alltools"
+
 
 
 const Home = () => {
@@ -7,8 +10,10 @@ const Home = () => {
         <div>
             <Navbar />
 
-            <div>
+            <div className="py-4">
                 <Banner />
+                <Credibility />
+                <Alltools />
             </div>
         </div>
     );

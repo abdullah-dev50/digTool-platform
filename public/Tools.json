@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Perfect for individuals and beginners who need essential features to get started.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10 Projects",
+      "5 GB Storage",
+      "Basic Analytics",
+      "Email Support",
+      "Mobile Access"
+    ],
+    "icon": "Rocket"
+  },
+  {
+    "id": 2,
+    "name": "Professional Plan",
+    "description": "Ideal for freelancers and growing businesses with advanced productivity tools.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited Projects",
+      "50 GB Storage",
+      "Advanced Analytics",
+      "Priority Support",
+      "Team Collaboration"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 3,
+    "name": "Business Plan",
+    "description": "Powerful solution for teams that need collaboration and premium features.",
+    "price": 99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited Storage",
+      "Unlimited Team Members",
+      "Role Management",
+      "API Access",
+      "24/7 Premium Support"
+    ],
+    "icon": "Building2"
+  },
+  {
+    "id": 4,
+    "name": "Lifetime License",
+    "description": "One-time payment with lifetime access to all core features and updates.",
+    "price": 299,
+    "period": "one-time",
+    "tag": "Limited",
+    "tagType": "limited",
+    "features": [
+      "Lifetime Access",
+      "Free Updates",
+      "Unlimited Projects",
+      "Premium Support",
+      "No Recurring Fees"
+    ],
+    "icon": "Infinity"
+  },
+  {
+    "id": 5,
+    "name": "Enterprise Suite",
+    "description": "Tailored for large organizations with enterprise-grade security and scalability.",
+    "price": 999,
+    "period": "yearly",
+    "tag": "Enterprise",
+    "tagType": "enterprise",
+    "features": [
+      "Custom Integrations",
+      "Dedicated Account Manager",
+      "SSO Authentication",
+      "Advanced Security",
+      "99.99% Uptime SLA"
+    ],
+    "icon": "ShieldCheck"
+  },
+  {
+    "id": 6,
+    "name": "Agency Pro",
+    "description": "Designed for agencies managing multiple clients with white-label capabilities.",
+    "price": 199,
+    "period": "monthly",
+    "tag": "Recommended",
+    "tagType": "recommended",
+    "features": [
+      "White Label Branding",
+      "Unlimited Clients",
+      "Team Permissions",
+      "Client Reports",
+      "Priority Live Chat"
+    ],
+    "icon": "Layers3"
+  }
+]
