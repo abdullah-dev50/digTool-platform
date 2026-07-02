@@ -2,103 +2,73 @@
   {
     "id": 1,
     "name": "Starter Plan",
-    "description": "Perfect for individuals and beginners who need essential features to get started.",
-    "price": 19,
-    "period": "monthly",
-    "tag": "New",
-    "tagType": "new",
-    "features": [
-      "10 Projects",
-      "5 GB Storage",
-      "Basic Analytics",
-      "Email Support",
-      "Mobile Access"
-    ],
-    "icon": "Rocket"
+    "icon": "writing_2327400 1.png",
+    "tag": "Best Seller",
+    "price": "$19",
+    "period": "Monthly",
+    "description": "Perfect starter package with essential tools for growing your business.",
+    "highlight_1": "10 Projects",
+    "highlight_2": "Email Support",
+    "highlight_3": "Mobile Access"
   },
   {
     "id": 2,
     "name": "Professional Plan",
-    "description": "Ideal for freelancers and growing businesses with advanced productivity tools.",
-    "price": 49,
-    "period": "monthly",
+    "icon": "design-tool.png",
     "tag": "Popular",
-    "tagType": "popular",
-    "features": [
-      "Unlimited Projects",
-      "50 GB Storage",
-      "Advanced Analytics",
-      "Priority Support",
-      "Team Collaboration"
-    ],
-    "icon": "Briefcase"
+    "price": "$49",
+    "period": "One-Time",
+    "description": "Powerful solution designed for freelancers and growing professionals worldwide.",
+    "highlight_1": "2000+ Templates",
+    "highlight_2": "Monthly Updates",
+    "highlight_3": "Commercial License"
   },
   {
     "id": 3,
     "name": "Business Plan",
-    "description": "Powerful solution for teams that need collaboration and premium features.",
-    "price": 99,
-    "period": "monthly",
-    "tag": "Best Seller",
-    "tagType": "best-seller",
-    "features": [
-      "Unlimited Storage",
-      "Unlimited Team Members",
-      "Role Management",
-      "API Access",
-      "24/7 Premium Support"
-    ],
-    "icon": "Building2"
+    "icon": "camera.png",
+    "tag": "New",
+    "price": "$99",
+    "period": "Monthly",
+    "description": "Complete business toolkit with premium collaboration and advanced security features.",
+    "highlight_1": "Unlimited Users",
+    "highlight_2": "API Access",
+    "highlight_3": "Premium Support"
   },
   {
     "id": 4,
     "name": "Lifetime License",
-    "description": "One-time payment with lifetime access to all core features and updates.",
-    "price": 299,
-    "period": "one-time",
-    "tag": "Limited",
-    "tagType": "limited",
-    "features": [
-      "Lifetime Access",
-      "Free Updates",
-      "Unlimited Projects",
-      "Premium Support",
-      "No Recurring Fees"
-    ],
-    "icon": "Infinity"
+    "icon": "operation.png",
+    "tag": "Popular",
+    "price": "$299",
+    "period": "One-Time",
+    "description": "Pay once and enjoy lifetime updates without recurring subscription costs.",
+    "highlight_1": "Lifetime Access",
+    "highlight_2": "Free Updates",
+    "highlight_3": "Premium Support"
   },
   {
     "id": 5,
     "name": "Enterprise Suite",
-    "description": "Tailored for large organizations with enterprise-grade security and scalability.",
-    "price": 999,
-    "period": "yearly",
-    "tag": "Enterprise",
-    "tagType": "enterprise",
-    "features": [
-      "Custom Integrations",
-      "Dedicated Account Manager",
-      "SSO Authentication",
-      "Advanced Security",
-      "99.99% Uptime SLA"
-    ],
-    "icon": "ShieldCheck"
+    "icon": "portfolio.png",
+    "tag": "New",
+    "price": "$999",
+    "period": "Yearly",
+    "description": "Enterprise-grade platform with custom integrations and maximum performance guaranteed.",
+    "highlight_1": "SSO Login",
+    "highlight_2": "Custom API",
+    "highlight_3": "99.99% SLA"
   },
   {
     "id": 6,
     "name": "Agency Pro",
-    "description": "Designed for agencies managing multiple clients with white-label capabilities.",
-    "price": 199,
-    "period": "monthly",
-    "tag": "Recommended",
-    "tagType": "recommended",
-    "features": [
-      "White Label Branding",
-      "Unlimited Clients",
-      "Team Permissions",
-      "Client Reports",
-      "Priority Live Chat"
-    ],
-    "icon": "Layers3"
+    "icon": "social-media.png",
+    "tag": "Best Seller",
+    "price": "$199",
+    "period": "Monthly",
+    "description": "Manage unlimited clients efficiently with advanced agency management features included.",
+    "highlight_1": "Unlimited Clients",
+    "highlight_2": "White Label",
+    "highlight_3": "Client Reports"
   }
 ]

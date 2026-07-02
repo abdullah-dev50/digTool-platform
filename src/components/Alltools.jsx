@@ -1,4 +1,6 @@
-const Tools = () => {
+import Productcard from "./Productcard";
+
+const Tools = ({carts, setCarts}) => {
     return (
 
 
@@ -28,7 +30,7 @@ const Tools = () => {
             {/* Dynamic Content*/}
 
             <div>
-                
+                <Productcard  carts={carts} setCarts={setCarts}/>
             </div>
 
         </div>
