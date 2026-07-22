@@ -19,6 +19,7 @@ const Home = () => {
                 <Banner />
                 <Credibility />
                 <Alltools carts={carts} setCarts={setCarts}/>
+                
             </div>
         </div>
     );

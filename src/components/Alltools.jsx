@@ -1,6 +1,10 @@
+import { useState } from "react";
+import Carts from "./Carts";
 import Productcard from "./Productcard";
 
 const Tools = ({carts, setCarts}) => {
+
+    const [activeTab,setActiveTab] = useState('tools')
     return (
 
 
@@ -18,9 +22,9 @@ const Tools = ({carts, setCarts}) => {
                 {/* Button */}
                 <div className="space-x-4 flex justify-center mt-8">
 
-                <button className="btn">Products</button>
+                <button className="btn" onClick={() => setActiveTab('tools')}>Products</button>
 
-                <button className="btn">Carts</button>
+                <button className="btn" onClick={() => setActiveTab('carts')}>Carts</button>
 
                 </div>
 
@@ -30,7 +34,10 @@ const Tools = ({carts, setCarts}) => {
             {/* Dynamic Content*/}
 
             <div>
-                <Productcard  carts={carts} setCarts={setCarts}/>
+                {/* <Productcard  carts={carts} setCarts={setCarts}/>
+                <Carts carts={carts} /> */}
+
+                {activeTab == 'tools' ?(<Productcard  carts={carts} setCarts={setCarts}/>) : <Carts setCarts ={setCarts} carts={carts} />  }
             </div>
 
         </div>

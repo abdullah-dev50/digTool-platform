@@ -1,4 +1,5 @@
 import { use } from "react";
+import toast from "react-hot-toast";
 
 const ProductDate = fetch("./Tools.json").then((res) => res.json());
 
@@ -7,9 +8,20 @@ const Productcard = ({carts, setCarts}) => {
   
 
   const addToCart =(product)=>{
-    console.log(product)
+    
+    const isExisst = carts.find(p => p.id == product.id);
+    if(isExisst){
+      toast.error('item is allready added to carts')
+      return
+    }
     setCarts([...carts,(product)])
+    toast.success('Item added to carts')
   }
+
+
+
+  const isActive = (id) =>carts.find (cart=> cart.id == id)
+
 
   return (
     <div className="grid grid-cols-3 my-10 gap-10">
@@ -47,7 +59,7 @@ const Productcard = ({carts, setCarts}) => {
 
 
              <div className="flex gap-2 items-center">
-              <span className="text-xl">{product.price}</span>
+              <span className="text-xl">$ {product.price}</span>
               <span>{product.period}</span>
              </div>
               
@@ -109,7 +121,15 @@ const Productcard = ({carts, setCarts}) => {
               </ul>
               
               <div className="mt-6">
-                <button className="btn btn-primary btn-block rounded-full py-6 bg-linear-to-r from-[#4F39F6] to-[#9514FA]" onClick={()=>addToCart(product)}>Buy Now</button>
+                <button className={`btn btn-block rounded-full py-6 font-semibold transition-all border-none ${
+                  
+            isActive(product.id)
+             ? "!bg-gray-300 !text-gray-500 cursor-not-allowed" 
+            : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
+             }`}
+
+                disabled={isActive(product.id)}
+                onClick={()=>addToCart(product)}>Buy Now</button>
               </div>
 
 
