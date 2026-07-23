@@ -22,9 +22,20 @@ const Tools = ({carts, setCarts}) => {
                 {/* Button */}
                 <div className="space-x-4 flex justify-center mt-8">
 
-                <button className="btn" onClick={() => setActiveTab('tools')}>Products</button>
+                <button className={`btn border-none rounded-full ${
+            activeTab === 'tools' 
+            ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white' 
+           : 'bg-gray-100 text-gray-700'
+            }`}
+                 onClick={() => setActiveTab('tools')}>Products</button>
 
-                <button className="btn" onClick={() => setActiveTab('carts')}>Carts</button>
+                <button className={`btn border-none rounded-full ${
+              activeTab === 'carts' 
+            ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white' 
+           : 'bg-gray-100 text-gray-700'
+            }`}
+
+                onClick={() => setActiveTab('carts')}>Carts</button>
 
                 </div>
 
