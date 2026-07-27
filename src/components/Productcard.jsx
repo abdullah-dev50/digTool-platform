@@ -124,7 +124,7 @@ const Productcard = ({carts, setCarts}) => {
                 <button className={`btn btn-block rounded-full py-6 font-semibold transition-all border-none ${
                   
             isActive(product.id)
-             ? "!bg-gray-300 !text-gray-500 cursor-not-allowed" 
+             ? "bg-gray-300! text-gray-500! cursor-not-allowed" 
             : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
              }`}
 

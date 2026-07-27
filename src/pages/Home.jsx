@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Alltools from "../components/Alltools"
 import { useState } from "react";
 import Step from "../components/Step";
+import Pricing from "../components/Pricing";
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
                 <Credibility />
                 <Alltools carts={carts} setCarts={setCarts}/>
                 <Step />
+                <Pricing />
                 
             </div>
         </div>

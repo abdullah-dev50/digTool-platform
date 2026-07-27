@@ -12,7 +12,7 @@ const Carts = ({setCarts, carts}) => {
     
 
     if(carts.length == 0){
-        return <div>No Carts</div>
+        return <div className="font-bold flex justify-center mt-20 mb-10">No Carts</div>
     }
 
     return (
@@ -40,7 +40,7 @@ const Carts = ({setCarts, carts}) => {
                         </div>
 
                         <div>
-                            <button className="btn" onClick={()=> removeCard(cart.id)}>Remove</button>
+                            <button className="font-medium text-[16px] text-red-500" onClick={()=> removeCard(cart.id)}>Remove</button>
                         </div>
                     </div>
                    );
