@@ -1,16 +1,23 @@
-# React + Vite
+**Digitools: A modern e-commerce website**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Features**
 
-Currently, two official plugins are available:
+Buy Now Button & Cart Counter: Clicking the "Buy Now" button adds the item to the cart and automatically updates the overall item count displayed in the navigation area.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Duplicate Prevention: To prevent adding the same product multiple times, the "Buy Now" button automatically disables itself once an item is added to the cart and cannot be clicked again.
 
-## React Compiler
+Item Removal from Cart: Users have the flexibility to remove any selected product from the cart section before finalizing their order.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Real-time Price Calculation: The total price is calculated dynamically, allowing users to review their subtotal in the cart section prior to proceeding with payment.
 
-## Expanding the ESLint configuration
+Interactive Toast Notifications: Powered by React-Toastify, key user actions such as adding products to the cart, removing items, or completing payment generate clear feedback notifications on the screen.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pricing Section: Dedicated pricing section detailing different product packages and options.
+
+
+**Technology Used**
+
+React.js
+Tailwind CSS
+DaisyUI
+React-Toastify
