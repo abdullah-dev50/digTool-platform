@@ -28,7 +28,7 @@ const Step = () => {
                 {/* icon */}
                 <div className="flex justify-center mt-8">
                     <div className="bg-[#F0E9FE] rounded-full flex justify-center items-center p-4 w-30 h-30 ">
-                    <img src="/src/assets/user-01.png" alt="" />
+                    <img src="/src/assets/user.png" alt="" />
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@ const Step = () => {
                 {/* icon */}
                 <div className="flex justify-center mt-8">
                     <div className="bg-[#F0E9FE] rounded-full flex justify-center items-center p-4 w-30 h-30 ">
-                    <img src="/src/assets/rocket-02.png" alt="" />
+                    <img src="/src/assets/rocket.png" alt="" />
                     </div>
                 </div>
 

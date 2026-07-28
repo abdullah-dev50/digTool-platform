@@ -5,6 +5,7 @@ import Alltools from "../components/Alltools"
 import { useState } from "react";
 import Step from "../components/Step";
 import Pricing from "../components/Pricing";
+import Footer from "../components/Footer";
 
 
 
@@ -23,6 +24,7 @@ const Home = () => {
                 <Alltools carts={carts} setCarts={setCarts}/>
                 <Step />
                 <Pricing />
+                <Footer />
                 
             </div>
         </div>
