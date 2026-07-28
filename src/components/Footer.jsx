@@ -72,6 +72,20 @@ const Footer = () => {
 
             {/* Buttom parent */}
             <div>
+                <hr className="my-10 mb-5 border  border-[#3b404e]" />
+
+                {/* footer credit */}
+                <div className="flex justify-between mt-10">
+                    <div>
+                        <p className="text-[#9FA2A9] font-light">© 2026 Digitools. All rights reserved.</p>
+                    </div>
+
+                    <div className="flex gap-6">
+                        <p className="text-[#9FA2A9] font-light text-[16px]">Privacy Policy</p>
+                        <p className="text-[#9FA2A9] font-light text-[16px]">Terms of Service </p>
+                        <p className="text-[#9FA2A9] font-light text-[16px]">Cookies</p>
+                    </div>
+                </div>
 
             </div>
         </div>
